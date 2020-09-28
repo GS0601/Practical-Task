@@ -1,0 +1,12 @@
+.heading {
+    color : #5e5a5a;
+}
+.details:hover {
+    background-color: #6c757d;
+    color: white;
+}
+.details {
+    /* display: block; */
+    margin-bottom: 10px;
+    border: 5px solid white;
+}

@@ -1,0 +1,39 @@
+<section class="p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card animated zoomIn">
+            <div class="card-header bg-secondary text-white">
+              <h3>Add New Employee</h3>
+            </div>
+            <div class="card-body">
+              <form (ngSubmit)="addEmployee()" required>
+                <div class="form-group">
+                  <input [(ngModel)]="employee.name" type="text" class="form-control" placeholder="Name" name="Name">
+                </div>
+                <div class="form-group">
+                  <input [(ngModel)]="employee.dob" type="text" class="form-control" placeholder="dob" name="dob">
+                </div>
+                <div class="form-group">
+                  <input [(ngModel)]="employee.address" type="email" class="form-control" placeholder="address" name="address">
+                </div>
+                <div class="form-group">
+                    <input [(ngModel)]="employee.role" type="email" class="form-control" placeholder="role" name="role">
+                  </div>
+                  <div class="form-group">
+                    <input [(ngModel)]="employee.salary" type="email" class="form-control" placeholder="salary" name="salary">
+                  </div>
+                  <div class="form-group">
+                    <input [(ngModel)]="employee.experience" type="email" class="form-control" placeholder="experience" name="experience">
+                  </div>
+                <div>
+                  <input type="submit" class="btn btn-secondary" value="Add Employee">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
